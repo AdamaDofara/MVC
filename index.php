@@ -1,6 +1,7 @@
 <?php
 require('controller/frontend.php');
-
+/*Premiere modification de index */
+echo'<h1>Bonjour</h1>';
 if (isset($_GET['action'])) {
     if ($_GET['action'] == 'listPosts') {
         listPosts();
